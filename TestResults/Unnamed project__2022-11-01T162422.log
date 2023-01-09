@@ -1,0 +1,27 @@
+﻿2022-11-01T16:24:22.1068981-04:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2022-11-01T16:24:22.1069988-04:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.9.31 in Framework netcore31 in x64 mode execution started
+2022-11-01T16:24:22.1070015-04:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\miked\source\repos\SeleniumFirst\SeleniumFirst\bin\Debug\netcoreapp3.1\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2022-11-01T16:24:22.1083573-04:00;VSTestExecutionThread;Info;Current UserName: 'miked', MachineName: 'DESKTOP-VJBK5E2'
+2022-11-01T16:24:22.1267258-04:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\miked\source\repos\SeleniumFirst\SeleniumFirst\bin\Debug\netcoreapp3.1\SeleniumFirst.dll
+2022-11-01T16:24:22.1271235-04:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\miked\source\repos\SeleniumFirst\TestResults" (default)
+2022-11-01T16:24:22.1274038-04:00;VSTestExecutionThread;Info;Profile: 
+2022-11-01T16:24:22.1450785-04:00;VSTestExecutionThread;Info;Log file path: C:\Users\miked\source\repos\SeleniumFirst\TestResults\Unnamed project__2022-11-01T162422.log
+2022-11-01T16:24:22.1476762-04:00;Thread#12;Info;Checking activation
+2022-11-01T16:24:24.6211414-04:00;Thread#12;Error;****************************************************************************************************************
+2022-11-01T16:24:24.6216685-04:00;Thread#12;Error;*                                           SpecFlow+ Runner                                                   *
+2022-11-01T16:24:24.6218490-04:00;Thread#12;Error;****************************************************************************************************************
+2022-11-01T16:24:24.6221952-04:00;Thread#12;Error;Please sign-up for your free SpecFlow account or sign-in with your already existing account here:
+2022-11-01T16:24:24.6224375-04:00;Thread#12;Error;https://account.specflow.org/clientactivation/welcome/Runner/B6ED75D9D1284CE59B4F3068F30B280832B6A2DA955EA8F8FA04344E6217638075E02FAC/NotActivatedYet
+2022-11-01T16:24:24.6226179-04:00;Thread#12;Error;to execute your Scenarios again.
+2022-11-01T16:24:24.6228431-04:00;Thread#12;Error;If you are reading this message on a build agent, we couldn't recognize the agent.
+2022-11-01T16:24:24.6230648-04:00;Thread#12;Error;Please get in touch with us at support@specflow.org.
+2022-11-01T16:24:24.6232987-04:00;Thread#12;Error;****************************************************************************************************************
+2022-11-01T16:24:24.6254132-04:00;Thread#12;Error;No tests executed (activation needed)
+2022-11-01T16:24:24.6324422-04:00:Total: 0
+2022-11-01T16:24:24.6335255-04:00:Succeeded: 0
+2022-11-01T16:24:24.6336504-04:00:Ignored: 0
+2022-11-01T16:24:24.6337437-04:00:Pending: 0
+2022-11-01T16:24:24.6341406-04:00:Skipped: 0
+2022-11-01T16:24:24.6342674-04:00:Failed: 0
+2022-11-01T16:24:24.6369912-04:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+========== End of log file ==========
