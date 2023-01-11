@@ -7,39 +7,29 @@ using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Support.UI;
+using OpenQA.Selenium.Interactions;
+using SeleniumExtras.WaitHelpers;
 
 namespace SeleniumFirst
 {
-	class SeleniumSetMethods
+	class SeleniumSetMethods : CriverHelper
 	{
 		//Enter Text
-		public static void EnterText(IWebDriver driver, string Element, string value, string elementtype)
+		public static void EnterText(IWebElement webElement, string value) => webElement.SendKeys(value);
+
+		public static void Click(IWebElement webElement) =>	webElement.Click();
+
+
+		public static void SelectDropDown(IWebElement webElement, string value)
 		{
-			if(elementtype == "Id")
-			driver.FindElement(By.Id(Element)).SendKeys(value);
-			if (elementtype == "Name")
-				driver.FindElement(By.Name(Element)).SendKeys(value);
+			SelectElement selectElement = new SelectElement(webElement);
+			selectElement.SelectByValue(value);
 		}
 
-		//click into a button, checkbox, option etc
-
-		public static void Click(IWebDriver driver, string Element, string elementtype)
+		public static void SelectText(IWebElement webElement, string text)
 		{
-			if (elementtype == "Id")
-				driver.FindElement(By.Id(Element)).Click();
-			if (elementtype == "Name")
-				driver.FindElement(By.Name(Element)).Click();
-
-		}
-
-		//select drop down control
-
-		public static void SelectDropDown(IWebDriver driver, string Element, string value, string elementtype)
-		{
-			if (elementtype == "Id")
-				new SelectElement(driver.FindElement(By.Id(Element))).SelectByText(value);
-			if (elementtype == "Name")
-				new SelectElement(driver.FindElement(By.Name(Element))).SelectByText(value);
+			SelectElement selectElement = new SelectElement(webElement);
+			selectElement.SelectByText(text);
 		}
 
 	}

@@ -9,6 +9,7 @@ using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Support.UI;
 using SeleniumExtras.WaitHelpers;
 using OpenQA.Selenium.Interactions;
+using SeleniumFirst.Pages;
 
 namespace SeleniumFirst
 {
@@ -36,8 +37,7 @@ namespace SeleniumFirst
 
 			driver.Navigate().GoToUrl("https://www.boston.com");
 					
-
-			driver.FindElement(By.Id("js-panel-navigation-trigger")).Click();
+			SeleniumSetMethods.Click(driver.FindElement(By.Id("js-panel-navigation-trigger")));
 			IWebElement click = driver.FindElement(By.Id("menu-item-22359876"));
 			Actions Action = new Actions(driver);
 			Action.Click(click);
@@ -55,6 +55,17 @@ namespace SeleniumFirst
 			//Console.WriteLine("clicked on page");
 
 
+
+		}
+		[Test]
+		public void NavigationTest()
+		{
+			driver.Navigate().GoToUrl("https://www.boston.com");
+			driver.Manage().Window.Maximize();
+			Homepage homepage = new Homepage();
+
+			homepage.ClickWeather();
+			Console.WriteLine("finished");
 
 		}
 

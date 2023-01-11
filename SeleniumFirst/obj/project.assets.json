@@ -6122,11 +6122,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\miked\\source\\repos\\SeleniumFirst\\SeleniumFirst\\SeleniumFirst.csproj",
+      "projectUniqueName": "C:\\Users\\miked\\OneDrive\\Documents\\GitHub\\SeleniumCSharpFirstProject\\SeleniumFirst\\SeleniumFirst.csproj",
       "projectName": "SeleniumFirst",
-      "projectPath": "C:\\Users\\miked\\source\\repos\\SeleniumFirst\\SeleniumFirst\\SeleniumFirst.csproj",
+      "projectPath": "C:\\Users\\miked\\OneDrive\\Documents\\GitHub\\SeleniumCSharpFirstProject\\SeleniumFirst\\SeleniumFirst.csproj",
       "packagesPath": "C:\\Users\\miked\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\miked\\source\\repos\\SeleniumFirst\\SeleniumFirst\\obj\\",
+      "outputPath": "C:\\Users\\miked\\OneDrive\\Documents\\GitHub\\SeleniumCSharpFirstProject\\SeleniumFirst\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
