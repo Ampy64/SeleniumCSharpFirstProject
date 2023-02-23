@@ -42,17 +42,12 @@ namespace SeleniumFirst
 			Actions Action = new Actions(driver);
 			Action.Click(click);
 			Action.Perform();
+			
 
 
 
 			Console.WriteLine("finished");
 
-			//SeleniumSetMethods.EnterText(driver, "q", "Can't Defy The Lonely Girl", "Name");
-			
-			//wait.Until(ExpectedConditions.ElementIsVisible(By.XPath("//div[@class='dense-manga-container']"))); 
-			//driver.FindElement(By.XPath("/html/body/div/div[3]/div[2]/div/div[2]/div/div[2]/a/div/div[2]/div[1]")).Click();
-			//driver.FindElement(By.XPath("//html[@title='Cant't Defy The Lonely Girl]")).Click();
-			//Console.WriteLine("clicked on page");
 
 
 
@@ -62,9 +57,11 @@ namespace SeleniumFirst
 		{
 			driver.Navigate().GoToUrl("https://www.boston.com");
 			driver.Manage().Window.Maximize();
+			Actions Action = new Actions(driver);
 			Homepage homepage = new Homepage();
 
 			homepage.ClickWeather();
+			//homepage.ClickIcon();
 			Console.WriteLine("finished");
 
 		}

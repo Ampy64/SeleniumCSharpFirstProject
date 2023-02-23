@@ -50,11 +50,11 @@
             },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[17.3.2, )"
+              "version": "[17.5.0, )"
             },
             "NPoco": {
               "target": "Package",
-              "version": "[5.5.0, )"
+              "version": "[5.7.0, )"
             },
             "NUnit": {
               "target": "Package",
@@ -62,11 +62,11 @@
             },
             "NUnit.ConsoleRunner": {
               "target": "Package",
-              "version": "[3.15.2, )"
+              "version": "[3.16.3, )"
             },
             "NUnit3TestAdapter": {
               "target": "Package",
-              "version": "[4.3.0, )"
+              "version": "[4.3.1, )"
             },
             "NUnitTestAdapter": {
               "target": "Package",
@@ -82,15 +82,15 @@
             },
             "Selenium.Support": {
               "target": "Package",
-              "version": "[4.5.1, )"
+              "version": "[4.8.1, )"
             },
             "Selenium.WebDriver": {
               "target": "Package",
-              "version": "[4.5.1, )"
+              "version": "[4.8.1, )"
             },
             "Selenium.WebDriver.ChromeDriver": {
               "target": "Package",
-              "version": "[107.0.5304.6200, )"
+              "version": "[110.0.5481.7700, )"
             },
             "SpecFlow.Plus.LivingDocPlugin": {
               "target": "Package",
@@ -124,7 +124,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.410\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
         }
       }
     }
